@@ -1,0 +1,153 @@
+.color-button-container {
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(90deg ,red, orange, yellow, green, blue, indigo, violet, white);
+    margin: 0;
+    padding: 5px 10px;
+}
+
+.color-button {
+    cursor: pointer;
+    color: white;
+}
+
+.color-button:hover {
+    background-color: white;
+    transform: rotate(270deg);
+    transition: transform 0.3s ease;
+}
+#red {
+    background-color: red;
+}
+#orange {
+    background-color: orange;
+}
+
+#yellow {
+    background-color: yellow;
+}
+#green {
+    background-color: green;
+}
+#blue {
+    background-color: blue;
+}
+
+#indigo {
+    background-color: indigo;
+}
+#violet {
+    background-color: violet;
+}
+
+#random {
+    color: black;
+    background: linear-gradient(90deg ,red, orange, yellow, green, blue, indigo, violet);
+}
+#random:hover {
+    background: linear-gradient(90deg ,red, orange, yellow, green, blue, indigo, violet);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+
+#red:hover {
+    color: red;
+    background-color: white;
+}
+#orange:hover {
+    color: orange;
+    background-color: white;
+}
+#yellow:hover {
+    color: yellow;
+    background-color: white;
+}
+#green:hover {
+    color: green;
+    background-color: white;
+}
+#blue:hover {
+    color: blue;
+    background-color: white;
+}
+
+#indigo:hover {
+    color: indigo;
+    background-color: white;
+}
+#violet:hover {
+    color: violet;
+    background-color: white;
+}
+
+#rainbow {
+    background: linear-gradient(90deg ,red, orange, yellow, green, blue, indigo, violet);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+    animation-name: heading;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes heading {
+    0% {
+        background: linear-gradient(90deg ,red, orange, yellow, green, blue, indigo, violet);
+        -webkit-background-clip: text;
+        color: transparent;
+        display: inline-block;
+    }
+    15% {
+        background: linear-gradient(90deg ,violet, red, orange, yellow, green, blue, indigo);
+        -webkit-background-clip: text;
+        color: transparent;
+        display: inline-block;
+    }
+    30% {
+        background: linear-gradient(90deg , indigo violet, red, orange, yellow, green, blue);
+        -webkit-background-clip: text;
+        color: transparent;
+        display: inline-block;
+    }
+    45% {
+        background: linear-gradient(90deg , blue, indigo violet, red, orange, yellow, green);
+        -webkit-background-clip: text;
+        color: transparent;
+        display: inline-block;
+    }
+    60% {
+        background: linear-gradient(90deg , green, blue, indigo violet, red, orange, yellow);
+        -webkit-background-clip: text;
+        color: transparent;
+        display: inline-block;
+    }
+    85% {
+        background: linear-gradient(90deg , yellow, green, blue, indigo violet, red, orange);
+        -webkit-background-clip: text;
+        color: transparent;
+        display: inline-block;
+    }
+    100% {
+        background: linear-gradient(90deg , orange, yellow, green, blue, indigo violet, red);
+        -webkit-background-clip: text;
+        color: transparent;
+        display: inline-block;
+    }
+
+  }
+
+  .graphic-button-container {
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .graphic-button {
+    background-color: #777;
+    cursor: pointer;
+    width: 30px;
+    height: 10px;
+    margin: 0 2px;
+  }
